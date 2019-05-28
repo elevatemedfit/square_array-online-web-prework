@@ -1,3 +1,3 @@
 def square_array(array)
-  array.each(*(1))# your code here
+  array.each(*(array))# your code here
 end
