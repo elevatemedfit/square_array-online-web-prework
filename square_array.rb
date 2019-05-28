@@ -3,5 +3,5 @@ def square_array(array)
     array.each {|i| arr << i**2}
      arr
    end
-  
-square_array(array)
+
+p square_array(array)
