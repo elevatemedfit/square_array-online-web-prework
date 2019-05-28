@@ -1,4 +1,8 @@
 def square_array(array)
-  answer= array.each(*())
-  return answer
+  array.each do |i|
+    new_array=[]
+    new_array<<i**2
+     new_array
+   end
   end
+square_array(array)
